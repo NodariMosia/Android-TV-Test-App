@@ -1,16 +1,15 @@
 # android_tv_test_app
 
-A new Flutter project.
+A test app for android tv.
 
-## Getting Started
+# TO RUN PROJECT LOCALLY
+- Run *flutter pub get*
+- Run *flutter run*
 
-This project is a starting point for a Flutter application.
+# TO CHANGE PLACEHOLDER APP ICON
+- Replace asssets/images/app_icon.png with new image (keep the name same)
+- Run *flutter pub run flutter_launcher_icons* to generate new icons
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# TO RENAME PROJECT
+- Update *title* passed to MaterialApp in *lib/app.dart*
+- Update *android:label* value in *android/app/src/main/AndroidManifest.xml* inside *application* tag
